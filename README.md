@@ -29,13 +29,13 @@ A configurable, Ultimate multi-line footer/statusline extension for [`pi`](https
 Install extension from npm:
 
 ```bash
-pi install npm:pi-footer
+pi install npm:@cheetahbyte/pi-footer
 ```
 
 Try it for one run without installing:
 
 ```bash
-pi -e npm:pi-footer
+pi -e npm:@cheetahbyte/pi-footer
 ```
 
 Local development checkout:

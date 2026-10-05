@@ -167,7 +167,7 @@ jobs:
 
           case "${{ matrix.install-method }}" in
             npm)
-              source="npm:pi-footer"
+              source="npm:@cheetahbyte/pi-footer"
               ;;
             git)
               source="git:github.com/${GITHUB_REPOSITORY}@${COMMIT_SHA}"

@@ -2,9 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "release-type": "node",
   "include-component-in-tag": false,
+  "bootstrap-sha": "1b83749ffa9a3be0b88be6823231300a17a66b10",
   "packages": {
     ".": {
-      "package-name": "pi-footer",
+      "package-name": "@cheetahbyte/pi-footer",
       "changelog-sections": [
         { "type": "feat", "section": "Features" },
         { "type": "fix", "section": "Bug Fixes" },
