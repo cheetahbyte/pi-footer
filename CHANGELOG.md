@@ -1,5 +1,44 @@
 # Changelog
 
+## [0.5.2](https://github.com/cheetahbyte/pi-footer/compare/v0.5.1...v0.5.2) (2026-10-05)
+
+
+### Performance
+
+* import sibling modules with .ts specifiers to cut startup time ([38d0008](https://github.com/cheetahbyte/pi-footer/commit/38d000853d833b52797445395df28dc860140ad0))
+* load the config UI on demand instead of at startup ([5b77864](https://github.com/cheetahbyte/pi-footer/commit/5b77864822d19fa4fd13b0836a3bc579039d5d70))
+
+
+### Dependencies
+
+* **deps-dev:** bump @types/node from 26.1.0 to 26.2.0 ([#72](https://github.com/cheetahbyte/pi-footer/issues/72)) ([bcd39ba](https://github.com/cheetahbyte/pi-footer/commit/bcd39ba0d1d20d83d5188e795edd5beb1db5b638))
+* **deps-dev:** bump @types/node from 26.2.0 to 26.3.0 ([#83](https://github.com/cheetahbyte/pi-footer/issues/83)) ([97e144c](https://github.com/cheetahbyte/pi-footer/commit/97e144c58244bfa6717db9f074400e46e479d9d6))
+* **deps-dev:** bump @types/node from 26.3.0 to 26.4.1 ([#87](https://github.com/cheetahbyte/pi-footer/issues/87)) ([35a645c](https://github.com/cheetahbyte/pi-footer/commit/35a645c5d3afedd3a7c229da953aff598cc772d4))
+* **deps-dev:** bump @types/node from 26.4.1 to 26.5.1 ([#93](https://github.com/cheetahbyte/pi-footer/issues/93)) ([6ceaae8](https://github.com/cheetahbyte/pi-footer/commit/6ceaae8e584e6f9e6ea29f81eac53ed38bf9b498))
+* **deps-dev:** bump @types/node from 26.5.1 to 26.6.1 ([#96](https://github.com/cheetahbyte/pi-footer/issues/96)) ([4207524](https://github.com/cheetahbyte/pi-footer/commit/4207524be35d45655221554ac33a8b96c2f51516))
+* **deps-dev:** bump @vitest/coverage-v8 from 4.1.10 to 4.1.11 ([#80](https://github.com/cheetahbyte/pi-footer/issues/80)) ([ebb5c93](https://github.com/cheetahbyte/pi-footer/commit/ebb5c932cc0d8999bb3f70f28d6930e9222d042c))
+* **deps-dev:** bump oxfmt from 0.61.0 to 0.63.0 ([#74](https://github.com/cheetahbyte/pi-footer/issues/74)) ([73988a5](https://github.com/cheetahbyte/pi-footer/commit/73988a5079f5614dbf76acdd1b82bf302a69136c))
+* **deps-dev:** bump oxfmt from 0.63.0 to 0.64.0 ([#79](https://github.com/cheetahbyte/pi-footer/issues/79)) ([0cb9390](https://github.com/cheetahbyte/pi-footer/commit/0cb93901af655605ec5d562dd6b8ad9741f2a66e))
+* **deps-dev:** bump oxfmt from 0.64.0 to 0.65.0 ([#84](https://github.com/cheetahbyte/pi-footer/issues/84)) ([03ce6f7](https://github.com/cheetahbyte/pi-footer/commit/03ce6f7a574bc077b1fe430bfb16ca84403a8f60))
+* **deps-dev:** bump oxfmt from 0.65.0 to 0.66.0 ([#88](https://github.com/cheetahbyte/pi-footer/issues/88)) ([f2c3aad](https://github.com/cheetahbyte/pi-footer/commit/f2c3aaddce783cb53bb9bab77dcb45fbe0d9c6d8))
+* **deps-dev:** bump oxfmt from 0.66.0 to 0.67.0 ([#89](https://github.com/cheetahbyte/pi-footer/issues/89)) ([82e51a1](https://github.com/cheetahbyte/pi-footer/commit/82e51a1705d7f290499f8dde66c18bf159cd42c3))
+* **deps-dev:** bump oxfmt from 0.67.0 to 0.68.0 ([#99](https://github.com/cheetahbyte/pi-footer/issues/99)) ([a4c8f36](https://github.com/cheetahbyte/pi-footer/commit/a4c8f364d56f428a8bdc74f95562096791e41140))
+* **deps-dev:** bump oxfmt from 0.68.0 to 0.70.0 ([#102](https://github.com/cheetahbyte/pi-footer/issues/102)) ([3adc448](https://github.com/cheetahbyte/pi-footer/commit/3adc4484ab757dffd72b7e7f774d0e00ba31b787))
+* **deps-dev:** bump oxfmt from 0.70.0 to 0.71.0 ([#105](https://github.com/cheetahbyte/pi-footer/issues/105)) ([b2a2d7b](https://github.com/cheetahbyte/pi-footer/commit/b2a2d7b73558bc0e36a0362acf33114ef28b7374))
+* **deps-dev:** bump oxlint from 1.76.0 to 1.77.0 ([#68](https://github.com/cheetahbyte/pi-footer/issues/68)) ([2b606c6](https://github.com/cheetahbyte/pi-footer/commit/2b606c6f676bc7fc8324311e1db824bbd4b9cf43))
+* **deps-dev:** bump oxlint from 1.77.0 to 1.78.0 ([#73](https://github.com/cheetahbyte/pi-footer/issues/73)) ([e06439a](https://github.com/cheetahbyte/pi-footer/commit/e06439a832948e392a48131bf37691e41720f412))
+* **deps-dev:** bump oxlint from 1.78.0 to 1.80.0 ([#85](https://github.com/cheetahbyte/pi-footer/issues/85)) ([478a089](https://github.com/cheetahbyte/pi-footer/commit/478a0896041aed944cb6433a70d18a4733cbfae1))
+* **deps-dev:** bump oxlint from 1.80.0 to 1.81.0 ([#86](https://github.com/cheetahbyte/pi-footer/issues/86)) ([a2847b2](https://github.com/cheetahbyte/pi-footer/commit/a2847b2bae0b225ae37c7bd5cd4982ad58b22fef))
+* **deps-dev:** bump oxlint from 1.81.0 to 1.82.0 ([#92](https://github.com/cheetahbyte/pi-footer/issues/92)) ([2ee76af](https://github.com/cheetahbyte/pi-footer/commit/2ee76afeefd75b96da0b37d4b0ceeeecb00be51a))
+* **deps-dev:** bump oxlint from 1.82.0 to 1.83.0 ([#97](https://github.com/cheetahbyte/pi-footer/issues/97)) ([c94282f](https://github.com/cheetahbyte/pi-footer/commit/c94282f9556b96110618ad05c1bbd6ff2145adc5))
+* **deps-dev:** bump oxlint from 1.83.0 to 1.85.0 ([#103](https://github.com/cheetahbyte/pi-footer/issues/103)) ([36bdaef](https://github.com/cheetahbyte/pi-footer/commit/36bdaef2c7dbcd2e93be32c2766bacc0a0de39f0))
+* **deps-dev:** bump oxlint from 1.85.0 to 1.86.0 ([#107](https://github.com/cheetahbyte/pi-footer/issues/107)) ([43fac5d](https://github.com/cheetahbyte/pi-footer/commit/43fac5de245aaccf929ffb2c121f3d32e46e07ed))
+* **deps-dev:** bump oxlint-tsgolint from 7.0.2001 to 7.0.2002 ([#101](https://github.com/cheetahbyte/pi-footer/issues/101)) ([be9873e](https://github.com/cheetahbyte/pi-footer/commit/be9873eb2156ff0f3cc9b9d596d0760264f5ad8b))
+* **deps-dev:** bump vitest from 4.1.10 to 4.1.11 ([#82](https://github.com/cheetahbyte/pi-footer/issues/82)) ([7e03466](https://github.com/cheetahbyte/pi-footer/commit/7e034669da92a1369eed8aa12cece5c7f87588d6))
+* **deps:** bump chalk from 6.0.0 to 6.0.1 ([#109](https://github.com/cheetahbyte/pi-footer/issues/109)) ([df9273a](https://github.com/cheetahbyte/pi-footer/commit/df9273af0f283ceeda0fce8ea969af73222d34c7))
+* **deps:** bump undici and @earendil-works/pi-coding-agent ([#104](https://github.com/cheetahbyte/pi-footer/issues/104)) ([d19e17b](https://github.com/cheetahbyte/pi-footer/commit/d19e17bdafb058e23612d27e02fc9e1bd4bfbe56))
+* **deps:** bump undici and @earendil-works/pi-coding-agent ([#70](https://github.com/cheetahbyte/pi-footer/issues/70)) ([12ec8ea](https://github.com/cheetahbyte/pi-footer/commit/12ec8eaa685328ec4a72855a07b836a386aee85f))
+
 ## [0.5.1](https://github.com/wobondar/pi-footer/compare/v0.5.0...v0.5.1) (2026-08-02)
 
 
